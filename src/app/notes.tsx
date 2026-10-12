@@ -617,4 +617,179 @@ export default function NotesScreen() {
       </View>
     </SafeAreaView>
   );
-}
+}const styles = StyleSheet.create({
+  safeArea: {
+    flex: 1,
+  },
+
+  container: {
+    flex: 1,
+  },
+
+  topBar: {
+    height: 60,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingHorizontal: 20,
+    borderBottomWidth: 1,
+  },
+
+  backText: {
+    fontSize: 16,
+    fontWeight: "600",
+  },
+
+  topTitle: {
+    fontSize: 18,
+    fontWeight: "700",
+  },
+
+  themeButton: {
+    width: 42,
+    height: 42,
+    borderRadius: 21,
+    borderWidth: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  themeIcon: {
+    fontSize: 19,
+  },
+
+  noteContainer: {
+    padding: 22,
+  },
+
+  noteTitle: {
+    fontSize: 28,
+    fontWeight: "700",
+    marginBottom: 8,
+  },
+
+  noteDate: {
+    fontSize: 12,
+    marginBottom: 5,
+  },
+
+  updatedDate: {
+    fontSize: 12,
+    marginBottom: 18,
+  },
+
+  divider: {
+    height: 1,
+    marginBottom: 20,
+  },
+
+  noteContentFull: {
+    fontSize: 17,
+    lineHeight: 27,
+  },
+
+  label: {
+    fontSize: 14,
+    fontWeight: "600",
+    marginBottom: 7,
+  },
+
+  titleInput: {
+    height: 50,
+    borderWidth: 1,
+    borderRadius: 12,
+    paddingHorizontal: 14,
+    fontSize: 17,
+    marginBottom: 18,
+  },
+
+  contentInput: {
+    height: 220,
+    borderWidth: 1,
+    borderRadius: 12,
+    padding: 14,
+    fontSize: 16,
+    marginBottom: 20,
+  },
+
+  actionRow: {
+    flexDirection: "row",
+    marginTop: 30,
+  },
+
+  editButton: {
+    flex: 1,
+    height: 48,
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: 6,
+  },
+
+  editText: {
+    fontSize: 15,
+    fontWeight: "600",
+  },
+
+  deleteButton: {
+    flex: 1,
+    height: 48,
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
+    marginLeft: 6,
+  },
+
+  deleteText: {
+    fontSize: 15,
+    fontWeight: "600",
+  },
+
+  cancelButton: {
+    flex: 1,
+    height: 48,
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
+    marginRight: 6,
+  },
+
+  cancelText: {
+    fontSize: 15,
+    fontWeight: "600",
+  },
+  updateButton: {
+    flex: 1,
+    height: 48,
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
+    marginLeft: 6,
+  },
+
+  updateText: {
+    fontSize: 15,
+    fontWeight: "600",
+  },
+
+  center: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  notFound: {
+    fontSize: 18,
+    marginBottom: 15,
+  },
+
+  backButton: {
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    borderRadius: 10,
+  },
+
+  backButtonText: {
+    fontWeight: "600",
+  },
+});
